@@ -65,6 +65,9 @@ system tray.
 **Requirements:** Windows 10/11. Some sources use the bundled **ffmpeg** (video/
 stream/YouTube) and **yt-dlp** (YouTube); see [`third-party-licenses/`](third-party-licenses/).
 
+What changed between versions is in the [changelog](CHANGELOG.md); older releases
+stay available on the [Releases](../../releases) page.
+
 ## Questions / ideas
 
 Head to **[Discussions](../../discussions)** for help, feature ideas, and show-and-tell,
