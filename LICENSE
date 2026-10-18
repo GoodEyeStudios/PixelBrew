@@ -1,0 +1,42 @@
+PixelBrew — End User License
+Copyright (c) Good Eye Studios. All rights reserved.
+
+This is a proprietary freeware license. It is NOT an open-source license.
+
+1. GRANT. You are granted a personal, non-exclusive, royalty-free license to
+   download, install, and use PixelBrew ("the Software") on devices you own or
+   control, for personal or internal business use, free of charge.
+
+2. RESTRICTIONS. You may not:
+   (a) sell, rent, sublicense, or redistribute the Software, in whole or in part,
+       for a fee, without prior written permission from Good Eye Studios;
+   (b) remove or alter any copyright, trademark, or attribution notices;
+   (c) represent the Software as your own or as an official product of any panel
+       or hardware manufacturer.
+   You MAY share a link to the official release, and you may make personal backup
+   copies.
+
+3. THIRD-PARTY COMPONENTS. The Software may invoke or bundle third-party programs
+   (including ffmpeg, yt-dlp, and NAudio), each licensed under its own terms. Those
+   terms are included in the "third-party-licenses" directory and govern those
+   components. Nothing here limits your rights under those licenses.
+
+4. INTEROPERABILITY / NO AFFILIATION. The Software is an independent work created
+   for interoperability with hardware the user already owns. It is not affiliated
+   with or endorsed by any panel or cooler manufacturer. No third-party code,
+   firmware, or assets are included.
+
+5. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+6. LIMITATION OF LIABILITY. IN NO EVENT SHALL GOOD EYE STUDIOS BE LIABLE FOR ANY
+   CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+   OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING ANY DAMAGE TO HARDWARE.
+
+7. DONATIONS. Voluntary donations ("buy me a bag of beans") are gifts in support
+   of development. They are not a purchase, do not grant additional rights, and
+   are non-refundable.
+
+By using the Software you agree to this license and to the terms in TERMS.md.

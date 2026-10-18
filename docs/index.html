@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PixelBrew — custom content for your USB mini-LCD</title>
+<meta name="description" content="PixelBrew drives a USB mini-LCD panel with your own content: graphs, video, YouTube, a mirrored window, a clock, an audio spectrum, and more. A Good Eye Studios project.">
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --fg:#13171c; --muted:#5a6572;
+    --line:#e3e7ec; --accent:#ff5e5b; --accent2:#2b7cff; --chip:#eef1f5;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --bg:#0e1116; --panel:#161b22; --fg:#e8ecf1; --muted:#9aa6b2;
+    --line:#242c37; --accent:#ff6b68; --accent2:#5b9bff; --chip:#1c232d;
+    color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#0e1116; --panel:#161b22; --fg:#e8ecf1; --muted:#9aa6b2;
+    --line:#242c37; --accent:#ff6b68; --accent2:#5b9bff; --chip:#1c232d;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+  .wrap{max-width:860px;margin:0 auto;
+    padding-left:max(16px,env(safe-area-inset-left,0px));
+    padding-right:max(16px,env(safe-area-inset-right,0px));}
+  header{text-align:center;padding-block:64px 40px;}
+  .hero-icon{width:116px;height:116px;border-radius:26px;display:block;margin:0 auto 14px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);}
+  .logo{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+  h1{font-size:clamp(40px,9vw,68px);margin:.15em 0 .1em;letter-spacing:-.02em;
+    text-wrap:balance;background:linear-gradient(100deg,var(--accent),var(--accent2));
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .tag{font-size:clamp(17px,3.4vw,21px);color:var(--muted);max-width:40ch;margin:0 auto;text-wrap:balance;}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:28px;}
+  a.btn{display:inline-block;padding:12px 20px;border-radius:10px;font-weight:600;
+    text-decoration:none;border:1px solid var(--line);color:var(--fg);background:var(--panel);}
+  a.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;}
+  a.btn.beans{background:var(--accent2);border-color:var(--accent2);color:#fff;}
+  section{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:28px;margin:18px 0;}
+  h2{font-size:22px;margin:0 0 14px;letter-spacing:-.01em;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;}
+  .feat{background:var(--chip);border-radius:10px;padding:12px 14px;font-size:14.5px;}
+  .feat b{display:block;font-size:15px;margin-bottom:2px;}
+  .note{font-size:13.5px;color:var(--muted);border-left:3px solid var(--accent);
+    padding:4px 0 4px 14px;margin:16px 0 0;}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding-block:28px 56px;}
+  footer a{color:var(--accent2);}
+  code{background:var(--chip);padding:1px 6px;border-radius:5px;font-size:13px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="hero-icon" src="icon.png" alt="PixelBrew" width="116" height="116">
+    <div class="logo">Good Eye Studios</div>
+    <h1>PixelBrew</h1>
+    <p class="tag">Drive your USB mini-LCD panel with whatever you want — graphs, video, YouTube, a clock, your desktop.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/GoodEyeStudios/PixelBrew/releases">Download</a>
+      <a class="btn" href="https://github.com/GoodEyeStudios/PixelBrew/discussions">Discussions</a>
+      <a class="btn beans" href="https://ko-fi.com/goodeyebrad">☕ Buy me a bag of beans</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>What it does</h2>
+    <p>Pick a source, point it at the panel, hit <b>Start</b>. Queue several sources to rotate on timers with a live countdown. Minimizes to the tray and gets out of your way.</p>
+    <div class="grid">
+      <div class="feat"><b>📊 System monitor</b>CPU · GPU · disk · network graphs, configurable.</div>
+      <div class="feat"><b>🎵 Audio spectrum</b>Live analyzer from any audio device.</div>
+      <div class="feat"><b>🎬 Video &amp; YouTube</b>Local files, YouTube, RTSP/HLS streams.</div>
+      <div class="feat"><b>🖥️ Screen &amp; window</b>Mirror a region or capture a window.</div>
+      <div class="feat"><b>📱 Cast to it</b>DLNA target — cast from a phone on your LAN.</div>
+      <div class="feat"><b>🕒 Clock · ⛅ Weather</b>Plus slideshow and a test/calibration card.</div>
+      <div class="feat"><b>🎨 Themes</b>8 built-in, plus your own JSON palettes.</div>
+      <div class="feat"><b>🔁 Smart queue</b>Loop modes, per-item timers, tray.</div>
+    </div>
+    <p class="note">Free &amp; donationware. No license key, no nag screens. Needs Windows 10/11 and the panel; close the stock vendor app first — it holds the panel open.</p>
+  </section>
+
+  <section>
+    <h2>Not affiliated with Thermalright</h2>
+    <p>PixelBrew is an independent, clean reimplementation made for interoperability with hardware you already own. It is not affiliated with, endorsed by, or connected to Thermalright or any panel manufacturer. No vendor code, firmware, or assets are included. See the project's <code>TERMS.md</code>.</p>
+  </section>
+
+  <footer>
+    PixelBrew · a <b>Good Eye Studios</b> project ·
+    <a href="https://github.com/GoodEyeStudios/PixelBrew">GitHub</a> ·
+    <a href="https://ko-fi.com/goodeyebrad">Support</a>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# GitHub "Sponsor" button config. Swap YOUR_HANDLE for your real handle.
+# Docs: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+ko_fi: goodeyebrad          # -> https://ko-fi.com/goodeyebrad  ("buy me a bag of beans")
+
+# Add any of these later if you want more "bag of beans" buttons:
+# custom:
+#   - "https://paypal.me/YOUR_HANDLE"
+#   - "https://cash.app/$YOUR_CASHTAG"
+# github: [YourGitHubUsername]   # requires GitHub Sponsors enabled
