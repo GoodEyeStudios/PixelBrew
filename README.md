@@ -86,4 +86,8 @@ Bundled third-party tools keep their own licenses; see
 
 ---
 
+<p align="center">
+  <a href="https://snagd.net"><img alt="Sponsored by Snagd — snagd.net" src="assets/snagd-sponsor-banner.png" width="540"></a>
+</p>
+
 *PixelBrew · a Good Eye Studios project.*
